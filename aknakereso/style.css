@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'mine-sweeper';
+    src: url(fonts/mine-sweeper-webfont.woff),
+        url(fonts/mine-sweeper-webfont.woff2);
+}
+
+html {
+    background-color: #9cdafa;
+}
+
+.border {
+    border: 5px solid;
+    border-color: rgb(255, 255, 255) rgb(128, 128, 128)rgb(128, 128, 128) #ffffff;
+}
+
+.container {
+    border: solid rgb(198, 198, 198) 10px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    border: 5px solid;
+    border-color: rgb(128, 128, 128)rgb(255, 255, 255)#ffffff rgb(128, 128, 128);
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+#grid>div {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+header {
+    margin-top: 15px;
+}
+
+.korvonal {
+    text-align: center;
+
+    font-size: 10px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    
+    font-style: normal;
+    font-weight: bold;
+    border: 5px solid;
+    border-color: rgb(128, 128, 128) rgb(255, 255, 255) #ffffff rgb(128, 128, 128);
+    background-color: rgb(192, 192, 192);
+
+}
+
+#eredmeny {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bomba {
+    border: 5px solid;
+    border-color: rgb(255, 255, 255) rgb(128, 128, 128)rgb(128, 128, 128) #ffffff;
+    background-color: rgb(192, 192, 192);
+    box-sizing: border-box;
+
+}
+
+.ervenyes {
+    border: 5px solid;
+    border-color: rgb(255, 255, 255) rgb(128, 128, 128)rgb(128, 128, 128) #ffffff;
+    background-color: rgb(192, 192, 192);
+    box-sizing: border-box;
+}
+
+.checked {
+    border: solid rgb(128, 128, 128) 1.5px;
+}
+
+
+.egy {
+    color: rgb(0, 0, 255);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.ketto {
+    color: rgb(0, 123, 0);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.harom {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.negy {
+    color: rgb(1, 1, 124);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.ot {
+    color: rgb(127, 2, 3);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.hat {
+    color: rgb(2, 127, 126);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.het {
+    color: black;
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.nyolc {
+    color: rgb(127, 127, 127);
+    font-size: 15px;
+    font-family: 'mine-sweeper', 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+}
