@@ -11,7 +11,9 @@ function main() {
     const zaszlok_hatra = document.querySelector('#zaszlok-hatra')
     const eredmeny = document.querySelector('#eredmeny')
 
-
+eredmeny.addEventListener('click', () =>{ 
+    location.reload();
+} )
     palya();
 
     function palya() {
