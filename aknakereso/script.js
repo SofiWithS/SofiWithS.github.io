@@ -54,7 +54,7 @@ eredmeny.addEventListener('click', () =>{
 
                 if (i > 9 && !jobb_szelen_van && divlista[i + 1 - szelesseg].classList.contains('bomba')) ossz++
 
-                if (i > 10 && divlista[i - szelesseg].classList.contains('bomba')) ossz++
+                if (i >= 10 && divlista[i - szelesseg].classList.contains('bomba')) ossz++
 
                 if (i >= 11 && !bal_szelen_van && divlista[i - 1 - szelesseg].classList.contains('bomba')) ossz++
 
@@ -145,7 +145,7 @@ eredmeny.addEventListener('click', () =>{
                 const ujnegyzet = document.getElementById(ujID)
                 katt(ujnegyzet)
             }
-            if (jelenlegiID > 10) {
+            if (jelenlegiID >= 10) {
                 const ujID = divlista[parseInt(jelenlegiID - szelesseg)].id
                 const ujnegyzet = document.getElementById(ujID)
                 katt(ujnegyzet)
