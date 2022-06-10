@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    border: solid black 2px;
+    
+}
+.black{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.white{
+    background-color: white;
+    border: solid white 1px;
+}
+body {
+    display: grid;
+    justify-content: center;
+}
+.container>div {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+header{
+    text-align: center;
+}
