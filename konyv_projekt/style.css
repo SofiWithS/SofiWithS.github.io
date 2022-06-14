@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+nav {
+    background-color: rgb(56, 54, 54);
+    padding: 0px;
+    display: flex;
+    justify-content: right;
+    /* flex-direction: raw; */
+    margin: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.button-darkm {
+    display: grid;
+    color: blueviolet;
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    border: aquamarine solid 1px;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+
+.button-darkm:hover {
+    background-color: aquamarine;
+
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: rgb(52, 52, 52);
+}
+
+.dark-mode>main a:link {
+    color: white;
+}
+
+.dark-mode>main a:visited {
+    color: white;
+}
+
+.borito {
+    justify-content: right;
+}
+
+header>h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav a {
+    color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+main a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+main a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(141, 255, 217);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.spoiler {
+    border-bottom: solid rgba(141, 255, 217, 0) 20px;
+}
+
+.borito {
+    width: 100px;
+}
+
+body {
+
+    margin: 0px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.container {
+    width: 90%;
+}
+
+.imagekep2 {
+    box-shadow: 3px 3px 4px gray;
+    width: 130px;
+}
+.image2{ float: left;
+    width: 130px;
+border: solid rgba(165, 42, 42, 0) 10px;
+
+}
+
+.imagekep {
+    width: 140px;
+    box-shadow: 3px 3px 4px gray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 100px;
+}
+
+td,
+th {
+    border: 1px solid #00000001;
+    text-align: left;
+    padding: 8px;
+}
